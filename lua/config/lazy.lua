@@ -10,6 +10,7 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    { "akinsho/toggleterm.nvim", version = "*", config = true },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
@@ -41,4 +42,10 @@ require("lazy").setup({
       },
     },
   },
+})
+
+-- Setup Toggleterm with necessary options
+require("toggleterm").setup({
+  size = 15,
+  open_mapping = [[<c-a-t>]],
 })
