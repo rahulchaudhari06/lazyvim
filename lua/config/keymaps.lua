@@ -14,3 +14,5 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map("n", "<leader>uz", "<cmd>ZenMode<cr>", { desc = "Toggle Zen mode" })
+map({ "n", "v", "i" }, "<M-Up>", "<cmd>:m -2<cr>", { desc = "Move line up" })
+map({ "n", "v", "i" }, "<M-Down>", "<cmd>:m +1<cr>", { desc = "Move line down" })
