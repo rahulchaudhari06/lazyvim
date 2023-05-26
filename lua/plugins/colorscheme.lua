@@ -1,3 +1,7 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin" },
+  {
+    "folke/tokyonight.nvim",
+    lazy = true,
+    opts = { style = "night" },
+  },
 }
