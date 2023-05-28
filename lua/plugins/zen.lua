@@ -12,7 +12,7 @@ return {
       plugins = {
         kitty = {
           enabled = true,
-          font = "+4",
+          font = "22",
         },
       },
       on_open = function()
