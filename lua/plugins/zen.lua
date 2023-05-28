@@ -9,6 +9,12 @@ return {
           relativenumber = false,
         },
       },
+      plugins = {
+        kitty = {
+          enabled = true,
+          font = "+4",
+        },
+      },
       on_open = function()
         local opts = vim.opt_local
 
