@@ -47,3 +47,8 @@ require("lazy").setup({
     },
   },
 })
+
+-- Notify customizations
+require("notify").setup({
+  background_colour = "#14141D",
+})
