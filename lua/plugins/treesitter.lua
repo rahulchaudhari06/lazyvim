@@ -16,6 +16,7 @@ return {
       ensure_installed = {
         "bash",
         "css",
+        "dockerfile",
         "go",
         "html",
         "javascript",
@@ -31,6 +32,7 @@ return {
         "tsx",
         "typescript",
         "vim",
+        "vue",
         "yaml",
       },
     },
