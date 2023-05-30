@@ -3,7 +3,16 @@ return {
     "nullishamy/autosave.nvim",
     opts = {
       events = {
-        triggers = { "InsertLeave" },
+        register = true,
+        triggers = {
+          "BufLeave",
+          "InsertLeave",
+          "TabLeave",
+        },
+      },
+      debounce = {
+        enabled = true,
+        delay = 100,
       },
     },
   },
