@@ -21,7 +21,6 @@ return {
         "shellcheck",
         "shfmt",
         "terraform-ls",
-        "vetur-vls",
         "vue-language-server",
         "yamllint",
       },
