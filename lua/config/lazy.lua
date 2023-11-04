@@ -48,27 +48,3 @@ require("lazy").setup({
     },
   },
 })
-
--- Notify customizations
-require("notify").setup({
-  background_colour = "#14141D",
-  level = "info",
-  timeout = 5000,
-  max_width = 80,
-  max_height = 80,
-  stages = "slide",
-  icons = {
-    ERROR = "",
-    WARN = "",
-    INFO = "",
-    DEBUG = "",
-    TRACE = "✎",
-  },
-  on_open = function()
-    return nil
-  end,
-  on_close = function()
-    return nil
-  end,
-  render = "",
-})
