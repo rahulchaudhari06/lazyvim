@@ -17,6 +17,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 2. Clone the repository and start the IDE.
 
 ```sh
-git clone https://github.com/nikoheikkila/lazyvim ~/.config/nvim
+git clone https://github.com/rahulchaudhari06/lazyvim ~/.config/nvim
 nvim
 ```
